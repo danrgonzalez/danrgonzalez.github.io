@@ -1,7 +1,17 @@
 ---
 layout: post
-title: Another test2
+title: My second test on github!
 ---
+
+Welcome to my first blog post on github!
+
+I will now test several different markdown styles
+
+## Two pounds
+
+### Three pounds
+
+#### Four pounds
 
 
 # Markdowns
@@ -10,6 +20,3 @@ title: Another test2
 
 I am now creating a post from scratch. I hope this works as expected.
 
-> How about this
-
-```python```
