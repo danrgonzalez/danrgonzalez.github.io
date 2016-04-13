@@ -22,11 +22,10 @@ I will now test several different markdown styles
 2. second element in list
 3. third
 
-- _italics_ will make this sentence in italics?
-- **bold** will bolden this sentence
-- 'code()' designates that the following lines will be code
-- 'code()' I suppose this will also be treated as code
-- I doubt this will be treated as code
+- _this will make this sentence in italics?_
+- **will bolden this sentence**
+- 'designates that this sentence is acutally code'
+- 'I suppose this will also be treated as code'
 
 > This creates a blockquote
 >> this nests another blockquote
@@ -37,10 +36,7 @@ for element in aList:
   print element
 ```
 
-Let's see how trailing spaces work  
-so does this work?  
-did this create another linebreak
-
 Horizontal lines
+
 ----
 ****
