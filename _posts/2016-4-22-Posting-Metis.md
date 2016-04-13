@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My second test on github!
+title: middle one
 ---
 
 Welcome to my first blog post on github!  
@@ -18,3 +18,4 @@ I will now test several different markdown styles
 ## Making sure I can post  
 
 I am now creating a post from scratch. I hope this works as expected.
+
