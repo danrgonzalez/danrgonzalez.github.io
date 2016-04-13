@@ -24,10 +24,10 @@ I will now test several different markdown styles
 3. third
 
 
-_this will make this sentence in italics?_
-**will bolden this sentence**
-`designates that this sentence is acutally code`
-`I suppose this will also be treated as code`
+_this will make this sentence in italics?_  
+**will bolden this sentence**  
+`designates that this sentence is acutally code`  
+`I suppose this will also be treated as code`  
 
 
 > This creates a blockquote
