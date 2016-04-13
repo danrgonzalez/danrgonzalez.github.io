@@ -18,17 +18,22 @@ I will now test several different markdown styles
 - like this
   - and this should be an indented list item
 
+
 1. Gives me an ordered list
 2. second element in list
 3. third
 
-- _this will make this sentence in italics?_
-- **will bolden this sentence**
-- `designates that this sentence is acutally code`
-- `I suppose this will also be treated as code`
+
+_this will make this sentence in italics?_
+**will bolden this sentence**
+`designates that this sentence is acutally code`
+`I suppose this will also be treated as code`
+
 
 > This creates a blockquote
+
 >> this nests another blockquote
+
 
 ```python
 #some python code to show triple '`' functionality
