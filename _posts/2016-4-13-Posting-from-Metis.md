@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Another test
+title: Another test2
 ---
 
 
-# Markdown in progress
+# Markdowns
 
 ## Making sure I can post
 
