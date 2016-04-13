@@ -24,14 +24,14 @@ I will now test several different markdown styles
 
 - _this will make this sentence in italics?_
 - **will bolden this sentence**
-- 'designates that this sentence is acutally code'
-- 'I suppose this will also be treated as code'
+- `designates that this sentence is acutally code`
+- `I suppose this will also be treated as code`
 
 > This creates a blockquote
 >> this nests another blockquote
 
 ```python
-/*some python code to show triple '`' functionality*/
+#some python code to show triple '`' functionality
 for element in aList:
   print element
 ```
