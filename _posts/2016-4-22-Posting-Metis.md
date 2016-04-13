@@ -1,6 +1,9 @@
+
 ---
+
 layout: post
 title: middle one
+
 ---
 
 Welcome to my first blog post on github!  
