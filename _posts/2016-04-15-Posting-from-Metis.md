@@ -13,10 +13,8 @@ I will now test several different markdown styles
 
 #### Four pounds
 
-
 # Markdowns
 
 ## Making sure I can post
 
 I am now creating a post from scratch. I hope this works as expected.
-
