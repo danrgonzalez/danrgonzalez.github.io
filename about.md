@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Thank you for visiting my blog. Feel free to reach out for any inquiries. 
 
 ### More Information
 
@@ -12,4 +12,4 @@ A place to include any other types of information that you'd like to include abo
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[danrgonzalez@gmail.com](mailto:danrgonzalez@gmail.com)
