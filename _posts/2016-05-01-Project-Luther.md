@@ -5,4 +5,4 @@ title: Project Luther
 
 Applying Linear Regression to Scraped Movie Data
 
-![Associatiions](/assets/screenshot.jpg)
+![Associations](https://github.com/danrgonzalez/danrgonzalez.github.io/assets/screenshot.jpg)
