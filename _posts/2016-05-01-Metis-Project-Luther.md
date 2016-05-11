@@ -17,7 +17,7 @@ In this study, we will focus on movie budgets under $2M dollars. We seek to maxi
 
 ### Data
 
-In summary, we strive to find associations between high ROI movies and features that characterize the movie. Possible Features include:
+In summary, we strive to find associations between high ROI movies and features that characterize the movie. Possible Features include:  
 - Critic Scores
 - Runtime
 - Widest Release
@@ -25,7 +25,7 @@ In summary, we strive to find associations between high ROI movies and features 
 - MPAA Rating
 - Distributor
 
-The following websites are scraped for the following features:
+To collect the data, the following websites were scraped:
 - ROI : The-Numbers.com
 - Critic Scores : RottenTomatoes.com
 - Others: BoxOfficeMojo.com
@@ -34,13 +34,13 @@ The following websites are scraped for the following features:
 
 Let’s try a linear regression model to associate ROI with these features. A potential model is as follows: 
 
-ROI ~ Critic Scores + Runtime + Release Size + Genre + MPAA + Distributor
+ROI = Critic Scores + Runtime + Release Size + Genre + MPAA + Distributor
 
 ### Results
 
 Using Stepwise variable selection, the following features remained in the model:
 
-Worldwide_ROI_LOG ~ Widest_Release_T + Horror + Thriller + Columbia
+Worldwide_ROI_LOG = Widest_Release_T + Horror + Thriller + Columbia
 
 Visually, these are the associations:
 
