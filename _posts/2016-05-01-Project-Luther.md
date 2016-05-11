@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Metis: Project Luther
+title: Metis - Project Luther
 ---
 
 An Application of Linear Regression to Scraped Movie Data
