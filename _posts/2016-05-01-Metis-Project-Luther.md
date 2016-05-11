@@ -5,15 +5,19 @@ title: Metis - Project Luther
 
 An Application of Linear Regression to Scraped Movie Data
 
-## Low-Budget Movies with High ROIs: What makes them so special? (and profitable)
+## Low-Budget Movies with High Returns on Investment: What makes them so special? (and profitable)
 
 ### Introduction
 
-Using Linear Regression and variable selection techniques, we will investigate the association between high ROI movies that report budgets under $2M and the variables that make them such a huge success. The data for this model is gathered from several movie-related websites. 
+Using Linear Regression and variable selection techniques, I will investigate the association between highly successful low-budget films and a set of variables that may explain their huge success. The data for this model is scraped from several movie review websites. 
+ 
+### Motivation
+
+We could look at the financial success of all movies and build a model accordingly. However, due to resource constraints, we will restrict this study to low-budget films. A film's success will be measured by its return on investment or ROI. Given this, we wish to build a model that associates ROI with the characteristics of a movie.
  
 ### Definitions
 
-In this study, we will focus on movie budgets under $2M dollars. We seek to maximize Return on Investment (ROI), with ROI defined as: (Revenue – Budget)/Budget.
+In this study, we will focus on movies with budgets under $2M dollars. We define Return on Investment (ROI) as: (Revenue – Budget)/Budget.
 
 ### Data
 
@@ -26,15 +30,15 @@ In summary, we strive to find associations between high ROI movies and features 
 - MPAA Rating
 - Distributor
 
-To collect the data, the following websites were scraped:
+To gather this data, the following sites were scraped using BeautfilSoup in Python:
 
-- ROI: The-Numbers.com
+- Revenue and Budgets: The-Numbers.com
 - Critic Scores: RottenTomatoes.com
 - Others: BoxOfficeMojo.com
 
 ### Analysis
 
-Let’s try a linear regression model to associate ROI with these features. A potential model is as follows: 
+Based on the above features, let’s try a linear regression model to associate ROI with these features: 
 
 ROI = Critic Scores + Runtime + Release Size + Genre + MPAA + Distributor
 
@@ -44,13 +48,13 @@ Using Stepwise variable selection, the following features remained in the model:
 
 Worldwide_ROI_LOG = Widest_Release_T + Horror + Thriller + Columbia
 
-Visually, these are the associations:
+The model above achieved an Adjusted R2 : 0.31. All variables in the final model are statistically significant (significance level: 0.03).
+
+Visually, here are the associations:
 
 ![Associations]({{https://github.com/danrgonzalez/danrgonzalez.github.io}}/images/Screen Shot 2016-05-10 at 3.36.18 PM.png)
 
 ![Model Statistics]({{https://github.com/danrgonzalez/danrgonzalez.github.io}}/images/Screen Shot 2016-05-10 at 3.37.20 PM.png)
-
-The model above achieved an Adjusted R2 : 0.31. All variables in the final model are statistically significant (significance level: 0.03).
 
 ### Summary
 
