@@ -30,17 +30,19 @@ In summary, we strive to find associations between high ROI movies and features 
 - MPAA Rating
 - Distributor
 
-To gather this data, the following sites were scraped using BeautfilSoup in Python:
+To gather this data, the following sites were scraped using BeautifulSoup in Python:
 
 - Revenue and Budgets: The-Numbers.com
 - Critic Scores: RottenTomatoes.com
 - Others: BoxOfficeMojo.com
 
+~300 data points were gathered for the model. 
+
 ### Analysis
 
-Based on the above features, let’s try a linear regression model to associate ROI with these features: 
+Based on the above features, let’s construct a linear regression model to associate ROI with these features: 
 
-ROI = Critic Scores + Runtime + Release Size + Genre + MPAA + Distributor
+ROI = Critic Scores + Runtime + Widest Release + Genre + MPAA Rating + Distributor
 
 ### Results
 
@@ -48,9 +50,9 @@ Using Stepwise variable selection, the following features remained in the model:
 
 Worldwide_ROI_LOG = Widest_Release_T + Horror + Thriller + Columbia
 
-The model above achieved an Adjusted R2 : 0.31. All variables in the final model are statistically significant (significance level: 0.03).
+This model achieved an Adjusted R^2 : 0.31. All variables in the model are statistically significant at a significance level of 0.03.
 
-Visually, here are the associations:
+Visually, here are the associations between ROI and the variables in the model:
 
 ![Associations]({{https://github.com/danrgonzalez/danrgonzalez.github.io}}/images/Screen Shot 2016-05-10 at 3.36.18 PM.png)
 
@@ -58,9 +60,9 @@ Visually, here are the associations:
 
 ### Summary
 
-Should you invest based on this model? No.
+In summary, should you invest based on this model? No.
 
-But if you want to, aim at making a Horror film without any Thrill, that is distributed by Columbia with the widest release possible
+But if you really want to, aim at making a Horror film without any Thrill, that is distributed by Columbia with the widest release possible.
 
 In the meantime, let’s dig for more data or we re-evaluate how we approach this particular question.
 
