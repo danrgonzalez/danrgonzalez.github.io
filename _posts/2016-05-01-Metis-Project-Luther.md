@@ -28,8 +28,8 @@ In summary, we strive to find associations between high ROI movies and features 
 
 To collect the data, the following websites were scraped:
 
-- ROI : The-Numbers.com
-- Critic Scores : RottenTomatoes.com
+- ROI: The-Numbers.com
+- Critic Scores: RottenTomatoes.com
 - Others: BoxOfficeMojo.com
 
 ### Analysis
