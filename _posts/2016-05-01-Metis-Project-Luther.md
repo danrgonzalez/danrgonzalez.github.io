@@ -3,13 +3,13 @@ layout: post
 title: Metis - Project Luther
 ---
 
-An Application of Linear Regression to Scraped Movie Data
+An Application of Linear Regression on Webscraped Movie Data
 
-## Low-Budget Films with High Returns: What makes them so special? (and profitable)
+##  High-Return Low-Budget Films: What makes them so special? (and profitable)
 
 ### Introduction
 
-Using Linear Regression and variable selection techniques, I will investigate the association between highly successful low-budget films and a set of variables that may explain their huge success. The data for this model is scraped from several movie review websites. 
+Using Linear Regression and variable selection techniques, I will investigate the association between highly successful low-budget films and a set of variables that may explain their success. The data for this model is scraped from several movie review websites. 
  
 ### Motivation
 
@@ -17,11 +17,13 @@ We could look at the financial success of all movies and build a model according
  
 ### Definitions
 
-In this study, we will focus on movies with budgets under $2M dollars. We define Return on Investment (ROI) as: (Revenue – Budget)/Budget.
+We will define "low-budget" as movies with budgets under $2M dollars. 
+
+We will define Return on Investment (ROI) as: (Revenue – Budget) / Budget
 
 ### Data
 
-Since we strive to find associations between ROI and movie characteristics. Possible characteristics or features that we may include in our model are:
+Since we strive to find associations between ROI and a movie's characteristics, possible characteristics or features to include in our model are:
 
 - Critic Scores
 - Runtime
@@ -36,7 +38,7 @@ To gather this data, the following sites were scraped using BeautifulSoup in Pyt
 - Critic Scores: RottenTomatoes.com
 - Others: BoxOfficeMojo.com
 
-~300 data points were gathered for the model. 
+~300 data points were gathered for the regression model. 
 
 ### Analysis
 
@@ -44,23 +46,24 @@ Based on the above features, let’s construct a preliminary linear regression m
 
 ROI = Critic Scores + Runtime + Widest Release + Genre + MPAA Rating + Distributor
 
-As we will see in our results, not all of these variables are meaningful and are subsequently dropped from the model by variable selection techniques. For example, there is absolutely no correlation between Runtime and ROI, as expected. 
+As we will see in our results, not all of these variables are meaningful and are subsequently dropped from the model by variable selection techniques. For example, there is absolutely no correlation between Runtime and ROI, as expected, and thus the variable should not be included in the final model. 
 
 ### Results
 
 Using Stepwise variable selection, the following features remain in the model:
 
-Worldwide_ROI_LOG = Widest_Release_T + Horror + Thriller + Columbia
+ROI = Widest Release + Horror + Thriller + Columbia
 
 Horror and Thriller are variables derived from the Genre category and Columbia from the Distributor category.
 
 This model achieved an Adjusted R^2 : 0.31. All variables in the model are statistically significant at a significance level of 0.03.
 
-Visually, here are the associations between ROI and the variables in the model:
+Visually, here are the relationships between ROI and the variables in the model:
 
+As the ROI increases, there is a strong positive correlation with the size of the widest release for a movie. Similarly, Horror movies tend to be correlated with a greater ROI. Although not too many data points exist, the two thriller movies in the model were associated with relatively low ROIs, thus their negative contribution in the model. In contrast, the two movies that were distributed by Columbia performed very well and thus the Columbia indicator contributes to the model positively. 
 ![Associations]({{https://github.com/danrgonzalez/danrgonzalez.github.io}}/images/Screen Shot 2016-05-10 at 3.36.18 PM.png)
 
-Model Summary:
+Model Summary Statistics:
 
 ![Model Statistics]({{https://github.com/danrgonzalez/danrgonzalez.github.io}}/images/Screen Shot 2016-05-10 at 3.37.20 PM.png)
 
@@ -74,7 +77,7 @@ In the meantime, let’s dig for more data (features) or we re-evaluate how we a
 
 ### Additional Thoughts
 
-Stepwise Variable Selection was used to eliminate insignificant variables and optimize our Adjusted R^2
+Stepwise Variable Selection was used to eliminate insignificant variables and optimize our Adjusted R^2. 
 
 Running a CVLasso (SciKit Learn) on this Model yields a lambda = 0.001, indicating that the model warrants no additional cross validation penalties. 
 
