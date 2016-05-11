@@ -17,7 +17,8 @@ In this study, we will focus on movie budgets under $2M dollars. We seek to maxi
 
 ### Data
 
-In summary, we strive to find associations between high ROI movies and features that characterize the movie. Possible Features include:  
+In summary, we strive to find associations between high ROI movies and features that characterize the movie. Possible Features include:
+
 - Critic Scores
 - Runtime
 - Widest Release
@@ -26,6 +27,7 @@ In summary, we strive to find associations between high ROI movies and features 
 - Distributor
 
 To collect the data, the following websites were scraped:
+
 - ROI : The-Numbers.com
 - Critic Scores : RottenTomatoes.com
 - Others: BoxOfficeMojo.com
