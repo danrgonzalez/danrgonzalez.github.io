@@ -1,0 +1,7 @@
+---
+title: "Page not found"
+---
+
+That page doesn't exist, or it moved when this site was rebuilt.
+
+Try the [About](index.qmd), [Experience](experience.qmd), [Projects](projects.qmd), or [Research](research.qmd) pages.

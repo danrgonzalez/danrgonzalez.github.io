@@ -1,0 +1,11 @@
+```{=html}
+<div class="project-list">
+<% for (const item of items) { %>
+<div class="project-item" <%= metadataAttrs(item) %>>
+<h2 class="project-title"><a class="stretched-link" href="<%- item.path %>"><%- item.title %></a></h2>
+<p class="project-desc"><%- item.description %></p>
+<% if (item.categories) { %><p class="project-tags"><% for (const cat of item.categories) { %><span><%- cat %></span><% } %></p><% } %>
+</div>
+<% } %>
+</div>
+```

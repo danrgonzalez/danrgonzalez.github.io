@@ -1,0 +1,31 @@
+/*-- scss:defaults --*/
+$web-font-path: false;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+$font-family-monospace: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+$font-size-root: 17px;
+$line-height-base: 1.65;
+$headings-font-weight: 600;
+
+$body-bg: #ffffff;
+$body-color: #1f2328;
+$primary: #0b5cad;
+$secondary: #59636e;
+$link-color: #0b5cad;
+$border-color: #d8dee4;
+$code-color: #1f2328;
+
+$navbar-bg: #ffffff;
+$navbar-fg: #1f2328;
+$navbar-hl: #0b5cad;
+$footer-bg: #ffffff;
+$footer-fg: #59636e;
+
+/*-- scss:rules --*/
+:root {
+  --site-muted: #59636e;
+  --site-surface: #f6f8fa;
+  --site-border: #d8dee4;
+  --site-accent: #0b5cad;
+}

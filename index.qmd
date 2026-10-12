@@ -1,0 +1,50 @@
+---
+pagetitle: "Daniel Rodriguez Gonzalez"
+description: "Machine learning engineer working on statistical methodology, measurement science, and verification for production ML."
+---
+
+::: {.hero}
+# Daniel Rodriguez Gonzalez
+
+[DCS · MSDS]{.credentials}
+
+[Lead Machine Learning Engineer]{.role}
+[Dallas, TX]{.meta}
+
+::: {.lede}
+I build production statistical and machine learning systems, and the verification layer that keeps them trustworthy as they change.
+:::
+
+::: {.links}
+[Email](mailto:danrgonzalez@gmail.com) [LinkedIn](https://www.linkedin.com/in/danrgonzalez) [GitHub](https://github.com/danrgonzalez)
+:::
+:::
+
+## What I work on
+
+::: {.card-grid}
+::: {}
+### Statistical methodology
+Survey weighting and raking, calibration, Bayesian inference, and population estimation, formulated as convex optimization where it helps.
+:::
+
+::: {}
+### Verification for production ML
+Preflight checks, distributional drift gates, regression tests for nondeterministic solvers, and reproducible replay. These guardrails make fast iteration, including AI-assisted iteration, safer when correctness is statistical rather than exact.
+:::
+
+::: {}
+### ML engineering
+End-to-end pipelines, orchestration, model versioning, and monitoring on Snowflake, Databricks, and AWS.
+:::
+:::
+
+## Background
+
+I have spent about ten years shipping machine learning in media and advertising measurement, defense, and consulting. I hold a Doctor of Computer Science in big data analytics; my doctoral research applied residual neural networks to open-set human activity recognition. Before moving into data science, I worked as a field applications engineer for hardware and research organizations.
+
+See [Experience](experience.qmd) for roles, [Projects](projects.qmd) for things I build on my own time, and [Research](research.qmd) for publications.
+
+## Contact
+
+The best way to reach me is by [email](mailto:danrgonzalez@gmail.com) or on [LinkedIn](https://www.linkedin.com/in/danrgonzalez).

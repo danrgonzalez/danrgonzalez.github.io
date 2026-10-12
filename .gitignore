@@ -1,0 +1,28 @@
+# Allowlist: this repo is public, so ignore everything at the top level and
+# re-include only the site's source. Anything else in this folder stays local.
+/*
+!/.gitignore
+!/.github/
+!/README.md
+!/_quarto.yml
+!/*.qmd
+!/projects/
+!/styles/
+!/assets/
+
+# Inside allowed folders, only these kinds of files
+/projects/*
+!/projects/*.md
+!/projects/_metadata.yml
+
+# Never commit these, wherever they appear
+*.docx
+*.pdf
+*.ipynb
+*.quarto_ipynb
+.env
+.DS_Store
+Icon?
+
+/.quarto/
+**/*.quarto_ipynb

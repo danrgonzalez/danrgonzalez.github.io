@@ -1,0 +1,8 @@
+---
+title: "Projects"
+description: "Personal and research projects, built on my own time with public or personal data. No employer code or data."
+listing:
+  contents: projects/*.md
+  template: styles/project-list.ejs
+  sort: "order"
+---

@@ -1,0 +1,62 @@
+project:
+  type: website
+  output-dir: _site
+  # Only these files are rendered into the site. Every committed file is still
+  # public in the repo; .gitignore is an allowlist that keeps everything else out.
+  render:
+    - index.qmd
+    - experience.qmd
+    - projects.qmd
+    - projects/*.md
+    - research.qmd
+    - 404.qmd
+  resources:
+    - assets/og-card.png
+
+website:
+  title: "Daniel Rodriguez Gonzalez"
+  description: "Machine learning engineer working on statistical methodology, measurement science, and verification for production ML."
+  site-url: https://danrgonzalez.github.io
+  favicon: assets/favicon.svg
+  open-graph:
+    image: assets/og-card.png
+  twitter-card:
+    card-style: summary_large_image
+  search: false
+  navbar:
+    title: "Daniel Rodriguez Gonzalez"
+    left:
+      - href: index.qmd
+        text: About
+      - href: experience.qmd
+        text: Experience
+      - href: projects.qmd
+        text: Projects
+      - href: research.qmd
+        text: Research
+    right:
+      - icon: envelope
+        href: "mailto:danrgonzalez@gmail.com"
+        aria-label: Email
+      - icon: linkedin
+        href: https://www.linkedin.com/in/danrgonzalez
+        aria-label: LinkedIn
+      - icon: github
+        href: https://github.com/danrgonzalez
+        aria-label: GitHub
+  page-footer:
+    left: "© 2026 Daniel Rodriguez Gonzalez"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles/light.scss]
+      dark: [cosmo, styles/dark.scss]
+    respect-user-color-scheme: true
+    css: styles/site.css
+    toc: false
+    anchor-sections: false
+    html-math-method: plain
+    link-external-newwindow: true
+    link-external-icon: false

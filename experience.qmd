@@ -1,0 +1,103 @@
+---
+title: "Experience"
+description: "About ten years building production statistical and machine learning systems."
+toc: true
+toc-depth: 2
+toc-title: "On this page"
+---
+
+Machine learning engineer with about ten years of experience delivering production statistical systems across media and advertising measurement, defense, and consulting. My focus is the methodology behind population-level estimates and the verification machinery that lets those systems change safely.
+
+## Roles
+
+::: {.role-header}
+### Senior Machine Learning Engineer
+[2025 – present]{.role-dates}
+:::
+[VideoAmp · Remote]{.role-org}
+
+Own a set of production statistical and ML pipelines end to end: methodology, validation, deployment, and recurring releases.
+
+- Built and productionized large-scale statistical inference pipelines, including parallelization that substantially shortened end-to-end runtime.
+- Population estimation and survey calibration: raking (iterative proportional fitting) and calibration weighting formulated as convex optimization.
+- Verification layer: validation gates that fail on distributional drift from historical baselines, a regression harness that re-solves frozen fixtures through the production code path at tight numerical tolerance, all-or-nothing writes for large parallel fan-outs, and run snapshots for reproducible replay.
+- Gradient-boosted models with dated versioning and freshness guards that block inference when inputs post-date the training data.
+
+[Snowflake · Snowpark · Airflow · Python · cvxpy · scikit-learn · XGBoost · Datadog]{.stack}
+
+::: {.role-header}
+### Lead / Senior Machine Learning Engineer
+[2021 – 2024]{.role-dates}
+:::
+[Tiger Analytics · Remote]{.role-org}
+
+Client-facing ML engineering: model training, evaluation, deployment, monitoring, and explainability.
+
+- Designed a standardized ML pipeline template, with preflight data checks, data-quality checks, training, promotion, and monitoring as ordered stages, adopted across engagements.
+- Led migration of production models from SAS to Python, validating each against its baseline with row-level output comparison before cutover.
+- Built a retrieval-augmented question-answering assistant on an LLM and a vector store.
+
+[Databricks · SageMaker · MLflow · PySpark · XGBoost · LightGBM]{.stack}
+
+::: {.role-header}
+### Senior Machine Learning Engineer
+[2020 – 2021]{.role-dates}
+:::
+[Kratos Defense & Security Solutions · Colorado Springs, CO]{.role-org}
+
+- Built a convolutional neural network that combined multiple telemetry sources to identify environmental causes of performance degradation, shortening time to diagnosis.
+- Designed cloud data-ingestion pipelines feeding automated analysis.
+
+[PyTorch · AWS · Python]{.stack}
+
+::: {.role-header}
+### Senior Machine Learning Engineer
+[2018 – 2020]{.role-dates}
+:::
+[DISH Network · Denver, CO]{.role-org}
+
+- Built a self-serve impressions forecasting tool that replaced manual estimates: users select any combination of segment attributes and a horizon and receive a forecast.
+- Modeled each selection as a time series with trend and seasonality components and monitored forecast accuracy with MAPE.
+- Mentored junior staff in error analysis, machine learning, and cloud architecture.
+
+[Python · AWS · Databricks · Docker]{.stack}
+
+::: {.role-header}
+### Data Scientist / Machine Learning Engineer
+[2017 – 2018]{.role-dates}
+:::
+[Kratos Defense & Security Solutions · Colorado Springs, CO]{.role-org}
+
+- Built a time-series anomaly-detection model with automated alerting that substantially reduced detection time.
+- Developed classical and deep-learning models for pattern recognition in signal data, and migrated analytics storage to a cloud data lake.
+
+[Python · AWS · scikit-learn]{.stack}
+
+### Additional experience
+
+- **Assistant Professor, Machine Learning**, Colorado Technical University (remote)
+- **Senior Field Applications Engineer**, Fortemedia (Sunnyvale, CA)
+- **Field Applications Engineer**, Microchip Technology (San Jose, CA)
+- **Field Applications Engineer / Field Support Engineer**, SRI International (Menlo Park, CA)
+
+## Education
+
+- **Doctor of Computer Science, Big Data Analytics**, Colorado Technical University
+- **M.S., Data Science**, Southern Methodist University
+- **B.S., Engineering**, Harvey Mudd College
+
+## Certifications
+
+- Databricks Certified Machine Learning Professional
+- AWS Certified Machine Learning – Specialty
+- AWS Certified AI Practitioner
+
+## Skills
+
+**Methods.** Survey weighting and raking (IPF) · calibration estimators · Bayesian inference · convex optimization · population estimation · time-series forecasting · gradient boosting · deep learning for time series
+
+**Verification & reliability.** Distributional validation and drift detection · regression testing for nondeterministic solvers · reproducibility and run versioning · model monitoring
+
+**Languages & libraries.** Python · SQL · PySpark · PyTorch · scikit-learn · XGBoost · LightGBM · cvxpy · statsmodels · NumPy · SciPy · pandas
+
+**Platforms.** Snowflake (Snowpark, Container Services, Model Registry) · AWS (SageMaker, Lambda, Athena, EMR, EKS, S3) · Databricks · Airflow · Docker · Kubernetes · GitHub Actions · GitLab CI · MLflow · Datadog

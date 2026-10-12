@@ -1,0 +1,218 @@
+/* Layout and components shared by light and dark themes.
+   Colors come from the --site-* variables set in light.scss / dark.scss. */
+
+.navbar {
+  border-bottom: 1px solid var(--site-border);
+}
+.navbar-title {
+  font-weight: 600;
+}
+
+/* Hero on the About page */
+#title-block-header:empty {
+  display: none;
+}
+.hero {
+  padding: 1rem 0 0.5rem;
+}
+.hero p {
+  margin-bottom: 0;
+}
+.hero h1 {
+  margin-top: 0;
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.25rem;
+  border-bottom: none;
+}
+.hero .credentials {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--site-muted);
+  letter-spacing: 0.02em;
+}
+.hero .role {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0.35rem 0 0.1rem;
+}
+.hero .meta {
+  display: block;
+  color: var(--site-muted);
+  font-size: 0.95rem;
+}
+.hero .lede {
+  font-size: 1.2rem;
+  line-height: 1.55;
+  margin: 1.5rem 0 1.25rem;
+  max-width: 40rem;
+}
+.hero .links a {
+  display: inline-block;
+  margin: 0 0.5rem 0.5rem 0;
+  padding: 0.4rem 0.9rem;
+  border: 1px solid var(--site-border);
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+.hero .links a:hover {
+  border-color: var(--site-accent);
+}
+
+/* Section headings: quiet rule instead of Bootstrap's default */
+main h2 {
+  margin-top: 2.5rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--site-border);
+  font-size: 1.35rem;
+}
+
+/* Cards (focus areas, featured projects) */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 0.5rem;
+}
+.card-grid > * {
+  border: 1px solid var(--site-border);
+  border-radius: 8px;
+  padding: 1rem 1.1rem;
+  background: var(--site-surface);
+}
+.card-grid h3 {
+  font-size: 1.02rem;
+  margin: 0 0 0.4rem;
+}
+.card-grid p {
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+/* Experience entries */
+.role-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0 1rem;
+  margin-top: 1.75rem;
+}
+.role-header h3 {
+  font-size: 1.1rem;
+  margin: 0;
+}
+.role-dates {
+  color: var(--site-muted);
+  font-size: 0.92rem;
+  white-space: nowrap;
+}
+.role-org {
+  color: var(--site-muted);
+  margin: 0.1rem 0 0.5rem;
+}
+.stack {
+  font-family: var(--bs-font-monospace);
+  font-size: 0.82rem;
+  color: var(--site-muted);
+}
+
+/* Publications */
+.pub {
+  margin: 1.25rem 0;
+}
+.pub .pub-title {
+  font-weight: 600;
+}
+.pub .pub-venue {
+  color: var(--site-muted);
+  font-size: 0.95rem;
+}
+.pub .pub-links a {
+  font-size: 0.9rem;
+  margin-right: 0.9rem;
+}
+
+/* Project listing (styles/project-list.ejs) */
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  margin-top: 1.5rem;
+}
+.project-item {
+  position: relative;
+  padding: 1.1rem 1.25rem;
+  border: 1px solid var(--site-border);
+  border-radius: 8px;
+  background: var(--site-surface);
+}
+.project-item:hover,
+.project-item:focus-within {
+  border-color: var(--site-accent);
+}
+main .project-item h2.project-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 0.3rem;
+  padding: 0;
+  border: none;
+}
+.project-item h2.project-title a {
+  font-weight: 600;
+  text-decoration: none;
+}
+.project-item .project-desc {
+  font-size: 0.97rem;
+  margin: 0;
+}
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.7rem 0 0;
+}
+.project-tags span {
+  font-family: var(--bs-font-monospace);
+  font-size: 0.75rem;
+  padding: 0.1rem 0.5rem;
+  border: 1px solid var(--site-border);
+  border-radius: 999px;
+  color: var(--site-muted);
+}
+.back-link {
+  display: inline-block;
+  margin-top: 1.5rem;
+  font-size: 0.95rem;
+}
+
+/* Experience: secondary heading sized like the role titles */
+section#additional-experience > h3 {
+  font-size: 1.1rem;
+  margin-top: 1.75rem;
+}
+
+/* Research: native disclosure for BibTeX */
+details.bibtex > summary {
+  cursor: pointer;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.quarto-title .quarto-categories .quarto-category {
+  font-family: var(--bs-font-monospace);
+  text-transform: none;
+}
+
+@media (max-width: 575.98px) {
+  .hero h1 {
+    font-size: 1.9rem;
+  }
+  .hero .lede {
+    font-size: 1.08rem;
+  }
+}

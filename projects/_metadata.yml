@@ -1,0 +1,3 @@
+# Category chips on project pages trigger a listings.json request that 404s
+# when site search is off; the stack line on each page already lists the tools.
+title-block-categories: false

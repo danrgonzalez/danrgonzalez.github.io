@@ -1,0 +1,80 @@
+---
+title: "Research"
+description: "Deep learning for time-series classification, applied to human activity recognition from wearable sensors."
+---
+
+My doctoral research developed **TSCResNet**, a one-dimensional residual convolutional network for time-series classification, and applied it to recognizing human activities from wearable-sensor data. I studied it first in the closed-set setting, where every activity is seen during training, and then in the open-set setting, where the model must also recognize activities it has never seen. Code and details are on the [project page](projects/tscresnet.md).
+
+## Publications
+
+::: {.pub}
+[Performance Evaluation of Open-Set Classification in Human Activity Recognition via a Residual Neural Network Architecture]{.pub-title}\
+[D. Rodriguez Gonzalez, Y. Qu · *2023 Congress in Computer Science, Computer Engineering, & Applied Computing (CSCE)*, IEEE, pp. 470–476, 2023]{.pub-venue}
+
+Applies TSCResNet to open-set activity recognition, where some activities are absent from training, a situation common in real deployments but little studied. Evaluated on the PAMAP2 benchmark with the same preprocessing and protocol as prior open-set work.
+
+[[DOI](https://doi.org/10.1109/CSCE60160.2023.00084){aria-label="DOI for the 2023 CSCE open-set paper"}]{.pub-links}
+:::
+
+::: {.pub}
+[Improving the Performance of Closed-Set Classification in Human Activity Recognition by Applying a Residual Neural Network Architecture]{.pub-title}\
+[D. Rodriguez Gonzalez, Y. Qu · *European Journal of Electrical Engineering and Computer Science* 6(2), 59–65, 2022 · Open access (CC BY 4.0)]{.pub-venue}
+
+Introduces TSCResNet and evaluates it on the PAMAP2 benchmark using the standard held-out-subject protocol, reaching 95.6% accuracy and 95.5% mean F1, above the prior results it was compared against (best: 93.7% accuracy).
+
+[[DOI](https://doi.org/10.24018/ejece.2022.6.2.433){aria-label="DOI for the 2022 EJECE closed-set paper"} [PDF](https://eu-opensci.org/index.php/ejece/article/download/19433/11229){aria-label="PDF of the 2022 EJECE closed-set paper"}]{.pub-links}
+:::
+
+::: {.pub}
+[Improving the Performance of Open-Set Classification in Human Activity Recognition by Applying a Residual Neural Network Architecture]{.pub-title}\
+[D. Rodriguez Gonzalez · Doctor of Computer Science dissertation, Colorado Technical University, 2022]{.pub-venue}
+
+[[ProQuest](https://www.proquest.com/openview/1bcde6c7e49e9b389272c22dfbd48346/1){aria-label="Dissertation on ProQuest"}]{.pub-links}
+:::
+
+## Patents
+
+- Co-inventor, U.S. provisional patent application (2025).
+
+## Cite
+
+<details class="bibtex">
+<summary>BibTeX</summary>
+
+```bibtex
+@inproceedings{rodriguezgonzalez2023openset,
+  author    = {Rodriguez Gonzalez, Daniel and Qu, Yanzhen},
+  title     = {Performance Evaluation of Open-Set Classification in Human Activity
+               Recognition via a Residual Neural Network Architecture},
+  booktitle = {2023 Congress in Computer Science, Computer Engineering,
+               \& Applied Computing (CSCE)},
+  pages     = {470--476},
+  year      = {2023},
+  publisher = {IEEE},
+  doi       = {10.1109/CSCE60160.2023.00084}
+}
+
+@article{rodriguezgonzalez2022closed,
+  author  = {Rodriguez Gonzalez, Daniel and Qu, Yanzhen},
+  title   = {Improving the Performance of Closed-Set Classification in Human
+             Activity Recognition by Applying a Residual Neural Network Architecture},
+  journal = {European Journal of Electrical Engineering and Computer Science},
+  volume  = {6},
+  number  = {2},
+  pages   = {59--65},
+  year    = {2022},
+  doi     = {10.24018/ejece.2022.6.2.433}
+}
+
+@phdthesis{rodriguezgonzalez2022dissertation,
+  author = {Rodriguez Gonzalez, Daniel},
+  title  = {Improving the Performance of Open-Set Classification in Human Activity
+            Recognition by Applying a Residual Neural Network Architecture},
+  school = {Colorado Technical University},
+  type   = {Doctor of Computer Science dissertation},
+  year   = {2022},
+  note   = {ProQuest Publication No. 28967546}
+}
+```
+
+</details>
