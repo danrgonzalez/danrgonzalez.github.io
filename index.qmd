@@ -41,7 +41,7 @@ End-to-end pipelines, orchestration, model versioning, and monitoring on Snowfla
 
 ## Background
 
-I have spent about ten years shipping machine learning in media and advertising measurement, defense, and consulting. I hold a Doctor of Computer Science in big data analytics; my doctoral research applied residual neural networks to open-set human activity recognition. Before moving into data science, I worked as a field applications engineer for hardware and research organizations.
+I have spent more than ten years shipping machine learning in media and advertising measurement, defense, and consulting. I hold a Doctor of Computer Science in big data analytics; my doctoral research applied residual neural networks to open-set human activity recognition. Before moving into data science, I worked as a field applications engineer for hardware and research organizations.
 
 See [Experience](experience.qmd) for roles, [Projects](projects.qmd) for things I build on my own time, and [Research](research.qmd) for publications.
 

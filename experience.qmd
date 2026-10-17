@@ -1,12 +1,12 @@
 ---
 title: "Experience"
-description: "About ten years building production statistical and machine learning systems."
+description: "10+ years building production statistical and machine learning systems."
 toc: true
 toc-depth: 2
 toc-title: "On this page"
 ---
 
-Machine learning engineer with about ten years of experience delivering production statistical systems across media and advertising measurement, defense, and consulting. My focus is the methodology behind population-level estimates and the verification machinery that lets those systems change safely.
+Machine learning engineer with 10+ years of experience delivering production statistical systems across media and advertising measurement, defense, and consulting. My focus is the methodology behind population-level estimates and the verification machinery that lets those systems change safely.
 
 ## Roles
 
