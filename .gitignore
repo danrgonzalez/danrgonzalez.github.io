@@ -26,3 +26,7 @@ Icon?
 
 /.quarto/
 **/*.quarto_ipynb
+
+# Private documents (resume, notes, plans). Listed explicitly so they stay
+# out of git even if the allowlist above changes.
+/docs/
