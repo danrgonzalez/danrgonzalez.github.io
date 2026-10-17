@@ -91,9 +91,9 @@ Client-facing ML engineering: model training, evaluation, deployment, monitoring
 
 ## Certifications
 
-- Databricks Certified Machine Learning Professional
-- AWS Certified Machine Learning – Specialty
-- AWS Certified AI Practitioner
+- Databricks Certified Machine Learning Professional (2024)
+- [AWS Certified AI Practitioner](https://www.credly.com/badges/220d7ca4-6f61-4c82-b552-e13589f5596e) (2024)
+- [AWS Certified Machine Learning – Specialty](https://www.credly.com/badges/478dab98-a18e-4d74-b867-9c64f8e5abe3) (2022–2025)
 
 ## Skills
 
