@@ -16,12 +16,15 @@ Machine learning engineer with 10+ years of experience delivering production sta
 :::
 [VideoAmp · Remote]{.role-org}
 
-Own a set of production statistical and ML pipelines end to end: methodology, validation, deployment, and recurring releases.
+Own the production pipelines that calibrate audience-measurement panels to the population: population targets, household weighting, and the validation that gates every release. Engineering owner for the weighting workstream of a cross-team methodology refresh, working with methodology, data science, and engineering partners.
 
-- Built and productionized large-scale statistical inference pipelines, including parallelization that substantially shortened end-to-end runtime.
-- Population estimation and survey calibration: raking (iterative proportional fitting) and calibration weighting formulated as convex optimization.
-- Verification layer: validation gates that fail on distributional drift from historical baselines, a regression harness that re-solves frozen fixtures through the production code path at tight numerical tolerance, all-or-nothing writes for large parallel fan-outs, and run snapshots for reproducible replay.
-- Gradient-boosted models with dated versioning and freshness guards that block inference when inputs post-date the training data.
+- **Replaced a legacy weighting system by first reproducing it.** Rebuilt the household-weighting pipeline config-first and reproduced a published week of the legacy system's output before moving it onto a new raking solver. Reconciliation gaps were traced to root causes in the legacy code instead of being written off as solver noise.
+- **Measured what a method change does.** Built behavioral-preservation reports that test whether new weights shift what weighting should leave alone, such as program rankings and viewing-time distributions. They became the team's baseline for judging weighting changes.
+- **Migrated the team's core statistical pipelines** into a shared production monorepo: Bayesian household-composition inference, population targets from census and survey data, calibrated household weights, and new streaming-TV panels. Each followed the same scaffold → validate → promote path, with availability checks, schema enforcement, input snapshots, monitors, and parallelization that substantially shortened end-to-end runtime.
+- **Methods.** Raking (iterative proportional fitting) and calibration weighting formulated as convex optimization; Bayesian inference over household composition; reproducible probabilistic assignment with deterministic hashing; gradient-boosted models with dated versioning and freshness guards that block inference when inputs post-date the training data.
+- **Verification layer.** Validation gates that fail on distributional drift from historical baselines, a regression harness that re-solves frozen fixtures through the production code path at tight numerical tolerance, all-or-nothing writes for large parallel fan-outs, dry-run-by-default delivery runners, and run snapshots for reproducible replay.
+- **Cross-team leadership.** Put design options and trade-offs, such as solver fit versus weight dispersion, to methodology and engineering stakeholders for a decision before implementation. Chair a weekly sync between the population-targets and weighting workstreams, onboard engineers through code review, and wrote a glossary that translates methodology into engineering terms.
+- **AI-assisted engineering.** Built an agent skill, with its own evaluation set, that the team uses to file tickets from notes. Run coding agents under a written playbook of verification rules, and review pull requests with parallel reviewer agents whose comments are fact-checked against the code before they are posted.
 
 [Snowflake · Snowpark · Airflow · Python · cvxpy · scikit-learn · XGBoost · Datadog]{.stack}
 
@@ -97,6 +100,8 @@ Client-facing ML engineering: model training, evaluation, deployment, monitoring
 **Methods.** Survey weighting and raking (IPF) · calibration estimators · Bayesian inference · convex optimization · population estimation · time-series forecasting · gradient boosting · deep learning for time series
 
 **Verification & reliability.** Distributional validation and drift detection · regression testing for nondeterministic solvers · reproducibility and run versioning · model monitoring
+
+**AI-assisted engineering.** Coding agents run under written verification playbooks · evaluated agent skills · multi-agent code review
 
 **Languages & libraries.** Python · SQL · PySpark · PyTorch · scikit-learn · XGBoost · LightGBM · cvxpy · statsmodels · NumPy · SciPy · pandas
 

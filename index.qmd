@@ -39,9 +39,33 @@ End-to-end pipelines, orchestration, model versioning, and monitoring on Snowfla
 :::
 :::
 
+## How I work
+
+::: {.card-grid}
+::: {}
+### Reproduce before you replace
+When I migrate a production system, the new pipeline first has to reproduce the old one's published output. Only then do I change the method, and I measure what the change does.
+:::
+
+::: {}
+### Prove the gap, don't explain it
+A reconciliation difference is a bug until shown otherwise. "Solver noise" is a hypothesis to test, not an answer.
+:::
+
+::: {}
+### Agree on the decision before the code
+I put design options and their trade-offs to methodology and engineering partners before implementation, so what ships is what was agreed.
+:::
+
+::: {}
+### Turn every correction into a rule
+I work with AI coding agents under a written playbook. Each rule traces back to the mistake that produced it, and verification is part of every task.
+:::
+:::
+
 ## Background
 
-I have spent more than ten years shipping machine learning in media and advertising measurement, defense, and consulting. I hold a Doctor of Computer Science in big data analytics; my doctoral research applied residual neural networks to open-set human activity recognition. Before moving into data science, I worked as a field applications engineer for hardware and research organizations.
+I have spent more than ten years shipping machine learning in media and advertising measurement, defense, and consulting. Today I own production pipelines that calibrate audience-measurement panels to the population. I hold a Doctor of Computer Science in big data analytics; my doctoral research applied residual neural networks to open-set human activity recognition. Before moving into data science, I worked as a field applications engineer for hardware and research organizations.
 
 See [Experience](experience.qmd) for roles, [Projects](projects.qmd) for things I build on my own time, and [Research](research.qmd) for publications.
 
