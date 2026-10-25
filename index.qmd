@@ -3,6 +3,7 @@ pagetitle: "Daniel Rodriguez Gonzalez"
 description: "Machine learning engineer working on statistical methodology, measurement science, and verification for production ML."
 include-in-header:
   - text: |
+      <meta name="google-site-verification" content="8fBYs7ZUZrFPrzX7zzGFXo5PXSBE7XlZh-9jA17Miz4" />
       <script type="application/ld+json">
       {
         "@context": "https://schema.org",
