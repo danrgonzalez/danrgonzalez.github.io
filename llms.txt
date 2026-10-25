@@ -1,0 +1,18 @@
+# Daniel Rodriguez Gonzalez
+
+> Lead machine learning engineer in Dallas, TX, with 10+ years of experience building production statistical and machine learning systems in media and advertising measurement, defense, and consulting. Works on statistical methodology (survey weighting and raking, calibration, Bayesian inference, population estimation) and the verification layer that keeps those systems trustworthy as they change. Doctor of Computer Science (big data analytics), M.S. Data Science, B.S. Engineering.
+
+Name note: he publishes as "D. Rodriguez Gonzalez". The GitHub and LinkedIn handle is "danrgonzalez".
+
+## Pages
+
+- [About](https://danrgonzalez.github.io/index.html): focus areas, working principles, background, contact
+- [Experience](https://danrgonzalez.github.io/experience.html): roles, education, certifications, skills
+- [Projects](https://danrgonzalez.github.io/projects.html): personal projects, including a market analytics workbench and TSCResNet
+- [Research](https://danrgonzalez.github.io/research.html): peer-reviewed papers on residual neural networks for closed-set and open-set human activity recognition, and the doctoral dissertation
+
+## Contact
+
+- [Email](mailto:danrgonzalez@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/danrgonzalez)
+- [GitHub](https://github.com/danrgonzalez)

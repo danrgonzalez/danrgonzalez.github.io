@@ -9,6 +9,7 @@
 !/projects/
 !/styles/
 !/assets/
+!/llms.txt
 
 # Inside allowed folders, only these kinds of files
 /projects/*

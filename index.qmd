@@ -1,6 +1,43 @@
 ---
 pagetitle: "Daniel Rodriguez Gonzalez"
 description: "Machine learning engineer working on statistical methodology, measurement science, and verification for production ML."
+include-in-header:
+  - text: |
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Daniel Rodriguez Gonzalez",
+        "url": "https://danrgonzalez.github.io/",
+        "jobTitle": "Lead Machine Learning Engineer",
+        "description": "Machine learning engineer working on statistical methodology, measurement science, and verification for production ML.",
+        "email": "mailto:danrgonzalez@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Dallas",
+          "addressRegion": "TX",
+          "addressCountry": "US"
+        },
+        "alumniOf": [
+          {"@type": "CollegeOrUniversity", "name": "Colorado Technical University"},
+          {"@type": "CollegeOrUniversity", "name": "Southern Methodist University"},
+          {"@type": "CollegeOrUniversity", "name": "Harvey Mudd College"}
+        ],
+        "knowsAbout": [
+          "Survey weighting and raking",
+          "Calibration estimators",
+          "Bayesian inference",
+          "Convex optimization",
+          "Machine learning engineering",
+          "Time-series classification"
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/in/danrgonzalez",
+          "https://github.com/danrgonzalez",
+          "https://www.credly.com/users/daniel-rodriguez-gonzalez.87b88c98"
+        ]
+      }
+      </script>
 ---
 
 ::: {.hero}

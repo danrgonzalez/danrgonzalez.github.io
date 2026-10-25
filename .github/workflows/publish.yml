@@ -23,7 +23,9 @@ jobs:
         with:
           version: "1.10.18"
       - name: Render
-        run: quarto render
+        run: |
+          export SITE_UPDATED="$(git log -1 --format=%cs)"
+          quarto render
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
         with:

@@ -12,6 +12,7 @@ project:
     - 404.qmd
   resources:
     - assets/og-card.png
+    - llms.txt
 
 website:
   title: "Daniel Rodriguez Gonzalez"
@@ -46,6 +47,7 @@ website:
         aria-label: GitHub
   page-footer:
     left: "© 2026 Daniel Rodriguez Gonzalez"
+    center: "Last updated {{< env SITE_UPDATED >}}"
     right: "Built with [Quarto](https://quarto.org)"
 
 format:
