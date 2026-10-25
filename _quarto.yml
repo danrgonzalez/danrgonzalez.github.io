@@ -13,6 +13,7 @@ project:
   resources:
     - assets/og-card.png
     - llms.txt
+    - google059c2a129d693fbc.html
 
 website:
   title: "Daniel Rodriguez Gonzalez"

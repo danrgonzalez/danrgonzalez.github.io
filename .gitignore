@@ -10,6 +10,7 @@
 !/styles/
 !/assets/
 !/llms.txt
+!/google059c2a129d693fbc.html
 
 # Inside allowed folders, only these kinds of files
 /projects/*
