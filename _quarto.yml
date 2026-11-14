@@ -63,3 +63,6 @@ format:
     html-math-method: plain
     link-external-newwindow: true
     link-external-icon: false
+    include-in-header:
+      - text: |
+          <meta name="author" content="Daniel Rodriguez Gonzalez" />
