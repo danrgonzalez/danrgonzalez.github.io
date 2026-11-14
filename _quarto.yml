@@ -9,6 +9,8 @@ project:
     - projects.qmd
     - projects/*.md
     - research.qmd
+    - notes.qmd
+    - notes/*.md
     - 404.qmd
   resources:
     - assets/og-card.png
@@ -36,6 +38,8 @@ website:
         text: Projects
       - href: research.qmd
         text: Research
+      - href: notes.qmd
+        text: Notes
     right:
       - icon: envelope
         href: "mailto:danrgonzalez@gmail.com"

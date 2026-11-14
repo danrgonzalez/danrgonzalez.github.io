@@ -1,0 +1,8 @@
+---
+title: "Notes"
+description: "Short essays on statistical methods and engineering practice. Revised when my thinking changes, not posted on a schedule."
+listing:
+  contents: notes/*.md
+  template: styles/project-list.ejs
+  sort: "order"
+---

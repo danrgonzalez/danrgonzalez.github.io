@@ -10,6 +10,10 @@ Name note: he publishes as "D. Rodriguez Gonzalez". The GitHub and LinkedIn hand
 - [Experience](https://danrgonzalez.github.io/experience.html): roles, education, certifications, skills
 - [Projects](https://danrgonzalez.github.io/projects.html): personal projects, including a market analytics workbench and TSCResNet
 - [Research](https://danrgonzalez.github.io/research.html): peer-reviewed papers on residual neural networks for closed-set and open-set human activity recognition, and the doctoral dissertation
+- [Notes](https://danrgonzalez.github.io/notes.html): short essays on methods and engineering practice
+  - [Reproduce before you replace](https://danrgonzalez.github.io/notes/01-reproduce-before-you-replace.html): migrate a pipeline by first reproducing its published output
+  - [Regression-testing nondeterministic solvers](https://danrgonzalez.github.io/notes/02-regression-testing-nondeterministic-solvers.html): layered tests and measured tolerances for iterative solvers
+  - [Running coding agents under a verification playbook](https://danrgonzalez.github.io/notes/03-coding-agents-verification-playbook.html): a written playbook where every rule traces to a mistake
 
 ## Contact
 

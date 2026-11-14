@@ -1,0 +1,3 @@
+# Same reason as projects/_metadata.yml: category chips request listings.json,
+# which 404s while site search is off.
+title-block-categories: false
