@@ -14,6 +14,9 @@ Name note: he publishes as "D. Rodriguez Gonzalez". The GitHub and LinkedIn hand
   - [Reproduce before you replace](https://danrgonzalez.github.io/notes/01-reproduce-before-you-replace.html): migrate a pipeline by first reproducing its published output
   - [Regression-testing nondeterministic solvers](https://danrgonzalez.github.io/notes/02-regression-testing-nondeterministic-solvers.html): layered tests and measured tolerances for iterative solvers
   - [Running coding agents under a verification playbook](https://danrgonzalez.github.io/notes/03-coding-agents-verification-playbook.html): a written playbook where every rule traces to a mistake
+  - [Stage, validate, promote](https://danrgonzalez.github.io/notes/04-stage-validate-promote.html): pipelines that write nothing until every check passes, with dry run as the default
+  - [Agree on the decision before the code](https://danrgonzalez.github.io/notes/05-agree-on-the-decision-before-the-code.html): surface methodology decisions and their trade-offs before implementation
+  - [Evaluating activity recognition honestly](https://danrgonzalez.github.io/notes/06-evaluating-activity-recognition-honestly.html): held-out subjects, macro F1, matched protocols and open-set testing
 
 ## Contact
 
